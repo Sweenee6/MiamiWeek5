@@ -47,6 +47,10 @@ public class PlayerController : MonoBehaviour
         {
             meshRenderer.material.color = Color.blue;
         }
+        else if (playerNumber == PlayerNumber.PlayerTwo)
+        {
+            meshRenderer.material.color = Color.green;
+        }
 
         //TODO change player two color
     }
